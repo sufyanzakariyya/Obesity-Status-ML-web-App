@@ -32,7 +32,7 @@ else:
         Liquid_Intake_Daily = st.sidebar.selectbox("Liquid Intake Daily: [1] < 1 liter. [2] 1–2 liters. [3] > 2 liters", (1,2,3))
         Calculation_of_Calorie_Intake = st.sidebar.selectbox("Calculation Of Calorie Intake: [1] Yes. [2] No",(1,2))
         Physical_Excercise = st.sidebar.selectbox("Physical Exercise: [1] None. [2] 1–2 days. [3] 3–4 days. [4] 5–6 days. [5] 6+ days",(1,2,3,4,5))
-        Schedule_Dedicated_to_Technology = st.sidebar.selectbox("Tech Time: [1] 0–2 hrs. [2] 3–5 hrs. [3] >5 hrs",(1,2,3))
+        Schedule_Dedicated_to_Technology = st.sidebar.selectbox("Time Dedicated to technology: [1] 0–2 hrs. [2] 3–5 hrs. [3] >5 hrs",(1,2,3))
         Type_of_Transportation_Used = st.sidebar.selectbox("Transport Type: [1] Car. [2] Motorbike. [3] Bike. [4] Public Transport. [5] Walking", (1,2,3,4,5))
         
         data = {
