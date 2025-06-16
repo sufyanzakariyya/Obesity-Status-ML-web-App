@@ -22,7 +22,7 @@ else:
     def user_input_features():
         sex = st.sidebar.selectbox("Sex: 1. Male. 2. Female", (1, 2)) 
         age = st.sidebar.slider("Age", int(df['Age'].min()), int(df['Age'].max()), int(df['Age'].mean()))
-        height = st.sidebar.slider("Height", int(df['Height'].min()), int(df['Height'].max()), int(df['Height'].mean()))
+        height = st.sidebar.slider("Height (cm)", int(df['Height'].min()), int(df['Height'].max()), int(df['Height'].mean()))
         Overweight_Obese_Family = st.sidebar.selectbox("Overweight/Obese Families: [1] Yes. [2] No", (1, 2))
         Consumption_of_Fast_Food = st.sidebar.selectbox("Consumption of Fast Food: [1] Yes. [2] No", (1, 2))
         Frequency_of_Consuming_Vegetables = st.sidebar.selectbox("Frequency of Consuming Vegetables: [1] Rarely. [2] Sometimes. [3] Always", (1,2,3))
