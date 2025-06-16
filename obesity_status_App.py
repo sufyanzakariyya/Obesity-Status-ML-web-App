@@ -90,3 +90,5 @@ if st.button("Predict"):
         st.write("Increase physical activity and make healthier food choices. Focus on fruits, vegetables, and whole grains.")
     else:
         st.write("Incorporate regular exercise and adopt a balanced, portion-controlled diet. Limit processed foods and sugary drinks.")
+
+st.write("Developed by S.S. Zakariyya|Powered by Streamlit|April 2025")
