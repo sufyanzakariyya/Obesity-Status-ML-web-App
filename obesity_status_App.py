@@ -92,4 +92,4 @@ if st.button("Predict"):
         st.write("Incorporate regular exercise and adopt a balanced, portion-controlled diet. Limit processed foods and sugary drinks.")
 
 st.write('---')
-st.write("Developed by S.S. Zakariyya|Powered by Streamlit|April 2025")
+st.write("Developed by S.S. Zakariyya | Powered by Streamlit | April 2025")
