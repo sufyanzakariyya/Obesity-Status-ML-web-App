@@ -8,7 +8,7 @@ st.write("""
 # SMARTFIT-AI: An AI-Powered System for Early Detection of Obesity
 ## Developed by:
 Command Science Secondary School lafia. 
-AHQ Garrison Nigeria Army Education Corps
+AHQ Garrison Nigeria Army Education Corps participating at the corps commander conference.
 """)
 st.write('---')
 
