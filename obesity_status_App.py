@@ -7,7 +7,7 @@ import pickle
 st.write("""
 # SMARTFIT-AI: An AI-Powered System for Early Detection of Obesity
 
-##Developed by:
+# Developed by:
 Command Science Secondary School lafia. 
 AHQ Garrison Nigeria Army Education Corps
 """)
