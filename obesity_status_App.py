@@ -10,6 +10,7 @@ st.write("""
 ##Developed by:
 Command Science Secondary School lafia. 
 AHQ Garrison Nigeria Army Education Corps
+""")
 st.write('---')
 
 df = pd.read_csv("ObesityDataset.csv") 
