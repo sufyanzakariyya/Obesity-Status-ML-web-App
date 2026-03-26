@@ -5,15 +5,14 @@ import pickle
 
 # Streamlit App Interface
 st.write("""
-# SMARTFIT-AI: An AI-Powered System for Early Detection of Obesity
-## Developed by:
-Command Science Secondary School lafia. 
-AHQ Garrison Nigeria Army Education Corps participating at the corps commander conference.
+# FitCare AI
+
+"A Patient-Centred Preventive Health Solution for Lifestyle Diseases"
 """)
 st.write('---')
 
 df = pd.read_csv("ObesityDataset.csv") 
-st.sidebar.header("User Input Features")
+st.sidebar.header("User Health & Lifestyle Input")
 
 # Collect User Input Features Into dataframe
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
@@ -33,7 +32,7 @@ else:
         Liquid_Intake_Daily = st.sidebar.selectbox("Liquid Intake Daily: [1] < 1 liter. [2] 1–2 liters. [3] > 2 liters", (1,2,3))
         Calculation_of_Calorie_Intake = st.sidebar.selectbox("Calculation Of Calorie Intake: [1] Yes. [2] No",(1,2))
         Physical_Excercise = st.sidebar.selectbox("Physical Exercise: [1] None. [2] 1–2 days. [3] 3–4 days. [4] 5–6 days. [5] 6+ days",(1,2,3,4,5))
-        Schedule_Dedicated_to_Technology = st.sidebar.selectbox("Time Dedicated to technology: [1] 0–2 hrs. [2] 3–5 hrs. [3] >5 hrs",(1,2,3))
+        Schedule_Dedicated_to_Technology = st.sidebar.selectbox("Tech Time: [1] 0–2 hrs. [2] 3–5 hrs. [3] >5 hrs",(1,2,3))
         Type_of_Transportation_Used = st.sidebar.selectbox("Transport Type: [1] Car. [2] Motorbike. [3] Bike. [4] Public Transport. [5] Walking", (1,2,3,4,5))
         
         data = {
@@ -58,7 +57,7 @@ else:
     input_df = user_input_features()
 
 # Display User Input Features 
-st.subheader("User Input features")
+st.subheader("Processed Patient Data")
 if uploaded_file is not None:
     st.write(input_df)
 else:
@@ -74,15 +73,15 @@ if st.button("Predict"):
 
     #st.subheader("Prediction")
     if prediction == 1:
-        st.success(f"Predicted Obesity Category: {prediction[0]} - Underweight")
+        st.success(f"AI Risk Prediction Output: {prediction[0]} - Underweight")
     elif prediction == 2:
-        st.success(f"Predicted Obesity Category: {prediction[0]} - Normal")
+        st.success(f"AI Risk Prediction Output: {prediction[0]} - Normal")
     elif prediction == 3:
-        st.success(f"Predicted Obesity Category: {prediction[0]} - Overweight")
+        st.success(f"AI Risk Prediction Output: {prediction[0]} - Overweight")
     else:
-        st.success(f"Predicted Obesity Category: {prediction[0]} - Obese")
+        st.success(f"AI Risk Prediction Output: {prediction[0]} - Obese")
 
-    st.subheader("Recommendation")
+    st.subheader("Personalized Health Recommendation")
     if prediction == 1:
         st.write("Eat nutrient-rich, high-calorie foods more frequently. Include healthy fats, proteins, and snacks.")
     elif prediction == 2:
