@@ -5,11 +5,11 @@ import pickle
 
 # Streamlit App Interface
 st.write("""
-# SMARTFIT-AI: An AI-Powered System for Early Detection of Obesity
+# FitCare AI
 
 ## Developed By: 
 
-"Command Science Secondary School, Lafia. AHQ Garrison Nigeria Army Education Corps Participating at the Corps Commander Conference."
+"A Patient-Centered Preventive Healthcare Solution for Lifestyle Diseases."
 """)
 st.write('---')
 
