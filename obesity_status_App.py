@@ -6,9 +6,6 @@ import pickle
 # Streamlit App Interface
 st.write("""
 # FitCare AI
-
-## Developed By: 
-
 "A Patient-Centered Preventive Healthcare Solution for Lifestyle Diseases."
 """)
 st.write('---')
