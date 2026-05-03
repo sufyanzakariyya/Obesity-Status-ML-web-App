@@ -5,8 +5,9 @@ import pickle
 
 # Streamlit App Interface
 st.write("""
-# FitCare AI
-"A Patient-Centered Preventive Health Solution for Lifestyle Diseases."
+# Obesity Status Prediction App
+"A Smart and Intuitive App That Analyzes Social and Physical Activity patterns to Predict and Manage Individual Obesity Risk,
+Empowering Users with Actionable Health Insight and Personalized Recommendations."
 """)
 st.write('---')
 
