@@ -5,7 +5,7 @@ import pickle
 
 # Streamlit App Interface
 st.write("""
-# Development Of Obesity Status Prediction App
+# Development Of Obesity Status Prediction App 
 "Developed by Command Science Secondary School Lafia"
 """)
 st.write('---')
