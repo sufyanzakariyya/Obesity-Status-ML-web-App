@@ -7,7 +7,7 @@ import pickle
 st.image("WhatsApp Image 2026-06-04 at 1.31.00 PM.jpeg", width=100)
 st.write("""
 # Development Of Obesity Status Prediction App 
-"Developed by Command Science Secondary School Lafia"
+"### Developed by Command Science Secondary School Lafia"
 """)
 st.write('---')
 
