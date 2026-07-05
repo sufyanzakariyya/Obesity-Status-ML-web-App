@@ -3,11 +3,9 @@ import pandas as pd
 import numpy as np
 import pickle
 
-# Streamlit App Interfacest
-st.image("WhatsApp Image 2026-06-04 at 1.31.00 PM.jpeg", width=100)
 st.write("""
-# Development Of Obesity Status Prediction App 
-"Developed by Command Science Secondary School Lafia"
+# Obesity Status Prediction App 
+"A Smart and Intuitive App that Analyzes Social and Physical Activitity Pattern and Manage Individual Obesity Risk, Empowering Users With Actionable Health Insight and Personalied Recommendation."
 """)
 st.write('---')
 
